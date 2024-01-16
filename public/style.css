@@ -1,0 +1,62 @@
+:root {
+    --backgroundColor : #f7f8fc;
+    --boxColor : #ffffff ;
+    --borderColor : #337dd9 ;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#right-container p {
+    margin-top: 40px;
+    margin-right: 50px ;
+}
+
+
+
+.hackathon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hackathon {
+    background-color: var(--boxColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.template {
+    display: none;
+}
+
+#left-container {
+    padding-left: 5%;
+}
+
+#right-container {
+    margin-right:10%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+
