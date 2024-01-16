@@ -32,8 +32,4 @@ fetch('./data.json')
 })
 .catch(err => console.log(err));
 
-// fetch('./data.json').then(results=>results.json())
-//     .then(data=> {
-//         data.hackathons.forEach(hackathon => console.log(hackathon.sponsors.forEach(sponsors => console.log(sponsors))))
-// });
 
